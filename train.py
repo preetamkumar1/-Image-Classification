@@ -8,7 +8,7 @@ train_data = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=32
 )
 
-# Build CNN model
+# Build CNN mode
 model = models.Sequential([
     layers.Rescaling(1./255),
 
